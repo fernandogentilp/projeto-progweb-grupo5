@@ -1,0 +1,6 @@
+<svg xmlns='http://www.w3.org/2000/svg' width='600' height='800' viewBox='0 0 600 800'>
+  <rect width='100%' height='100%' fill='#f8fafc' />
+  <rect x='30' y='30' width='540' height='740' rx='12' fill='#fff' stroke='#e2e8f0' />
+  <text x='50%' y='40%' dominant-baseline='middle' text-anchor='middle' font-size='34' fill='#1e293b' font-family='Arial'>Introdução a Algoritmos</text>
+  <text x='50%' y='55%' dominant-baseline='middle' text-anchor='middle' font-size='18' fill='#475569'>COMPIA Editora</text>
+</svg>

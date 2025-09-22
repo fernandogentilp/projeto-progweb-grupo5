@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/projeto-progweb-grupo5/static/css/main.7fd71ac5.css",
+    "main.js": "/projeto-progweb-grupo5/static/js/main.369dc6c0.js",
+    "static/media/livropython.png": "/projeto-progweb-grupo5/static/media/livropython.d8e34d6fba27b3e6a839.png",
+    "static/media/cover2.svg": "/projeto-progweb-grupo5/static/media/cover2.9d1ed28f23e341fca859a0ef975733e0.svg",
+    "static/media/cover1.svg": "/projeto-progweb-grupo5/static/media/cover1.96293fc5e3357d927e1b82ccdcc40b4c.svg",
+    "static/media/cover3.svg": "/projeto-progweb-grupo5/static/media/cover3.3093f5f3d211b59ab733625a97bc688e.svg",
+    "index.html": "/projeto-progweb-grupo5/index.html",
+    "main.7fd71ac5.css.map": "/projeto-progweb-grupo5/static/css/main.7fd71ac5.css.map",
+    "main.369dc6c0.js.map": "/projeto-progweb-grupo5/static/js/main.369dc6c0.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7fd71ac5.css",
+    "static/js/main.369dc6c0.js"
+  ]
+}
