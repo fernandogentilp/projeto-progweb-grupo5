@@ -1,11 +1,23 @@
-# Projeto Final de Programação para Web I
+     # Loja Virtual COMPIA (React)
 
-**Projeto de Construção de uma Loja Virtual para Editoras da Área de
-Computação**
+     Projeto front-end em React (HTML + CSS) para a loja virtual COMPIA — versão estática para deploy em GitHub Pages ou outro host estático.
 
-Desenvolver uma plataforma de e-commerce para a editora COMPIA, uma editora
-de materiais bibliográficos da área de computação. A plataforma deve ser construída para
-permitir a venda de itens (livros físicos e digitais), de forma que seja de fácil
-gerenciamento por pessoas sem conhecimento técnico, aceite pagamentos com as
-principais bandeiras de cartão e PIX, e ofereça múltiplas formas de distribuição dos
-produtos
+     ## Como rodar localmente
+     1. Certifique-se de ter Node.js (>=16) e npm instalados.
+     2. No terminal, rode:
+
+```bash
+npm install
+npm start
+```
+
+     3. A aplicação abrirá em http://localhost:3000
+
+     ## O que está incluído
+     - Aplicação React com listagem de produtos, páginas de produto, carrinho e checkout simulado.
+     - Suporte a produtos `ebook` com geração de link de download (simulado e expirável via localStorage).
+     - Estrutura pronta para você subir no GitHub (adicione repositório e faça push).
+
+     ## Observações
+     - Neste projeto o fluxo de pagamento é simulado (sem gateway). Para produção, integre um back-end e gateways de pagamento.
+     - Os downloads de e-books são gerados localmente (client-side) como demonstração.
