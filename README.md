@@ -19,5 +19,5 @@ npm start
      - Estrutura pronta para você subir no GitHub (adicione repositório e faça push).
 
      ## Observações
-     - Neste projeto o fluxo de pagamento é simulado (sem gateway). Para produção, integre um back-end e gateways de pagamento.
+     - Neste projeto o fluxo de pagamento é simulado (sem gateway).
      - Os downloads de e-books são gerados localmente (client-side) como demonstração.
