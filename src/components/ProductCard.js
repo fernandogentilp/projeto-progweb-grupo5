@@ -8,9 +8,8 @@ export default function ProductCard({product}){
       <img src={product.image} alt={product.title} />
       <h3 style={{marginTop:8}}>{product.title}</h3>
       <p className="price">R$ {product.price.toFixed(2)}</p>
-      <div style={{display:'flex', gap:8, marginTop:8}}>
-        <Link to={`/product/${product.id}`} className="btn secondary">Ver</Link>
-        <Link to="/cart" className="btn">Comprar</Link>
+      <div style={{display:'flex', gap:8, marginTop:8, color:'#374151'}}>
+        <Link to={`/product/${product.id}`} className="btn secondary">Visualizar para comprar</Link>
       </div>
     </div>
   );
