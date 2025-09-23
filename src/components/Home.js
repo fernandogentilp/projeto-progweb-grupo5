@@ -1,3 +1,4 @@
+import compiaLogo from '../assets/compia.png';
 import React from "react";
 function Home() {
   return (
@@ -5,9 +6,9 @@ function Home() {
       <h1>Bem-vindo à Loja Virtual COMPIA</h1>
       <p>Confira nossos livros e materiais exclusivos!</p>
       <img
-        src= '/assets/compia.png'
+        src= {compiaLogo}
         alt="Logo da loja"
-        style={{ marginTop: "20px", width: "120px" }}
+        style={{ marginTop: "20px", width: "400px" }}
       />
       <p>Clique no link acima para Acessar o Site!</p>
     </div>
@@ -15,3 +16,4 @@ function Home() {
 }
 
 export default Home;
+
