@@ -12,6 +12,7 @@ export default function Header(){
           <Link to="/" className="brand" style={{color:'white', textDecoration:'none'}}>COMPIA</Link>
           <nav className="nav-links" style={{color:'white'}}>
             <Link to="/" style={{color:'white', textDecoration:'none'}}>Home</Link>
+            <Link to="/cart" style={{color:'white', textDecoration:'none'}}>Carrinho</Link>
           </nav>
         </div>
         <div>
