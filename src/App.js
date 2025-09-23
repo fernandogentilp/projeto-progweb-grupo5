@@ -7,6 +7,7 @@ import ProductPage from './components/ProductPage';
 import Cart from './components/Cart';
 import Checkout from './components/Checkout';
 import OrderSuccess from './components/OrderSuccess';
+import Home from "./components/Home";
 
 export default function App() {
   return (
