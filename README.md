@@ -15,8 +15,7 @@ npm start
 
      ## O que está incluído
      - Aplicação React com listagem de produtos, páginas de produto, carrinho e checkout simulado.
-     - Suporte a produtos `ebook` com geração de link de download (simulado e expirável via localStorage).
-     - Estrutura pronta para você subir no GitHub (adicione repositório e faça push).
+     - Suporte a produtos `ebook` com geração de link de download (simulado e expirável via localStorage)
 
      ## Observações
      - Neste projeto o fluxo de pagamento é simulado (sem gateway).
