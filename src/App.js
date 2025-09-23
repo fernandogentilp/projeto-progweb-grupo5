@@ -14,6 +14,7 @@ export default function App() {
       <Header />
       <main className="container">
         <Routes>
+          <Route path="/projeto-progweb-grupo5" element={<Home />} />
           <Route path="/" element={<ProductList />} />
           <Route path="/product/:id" element={<ProductPage />} />
           <Route path="/cart" element={<Cart />} />
