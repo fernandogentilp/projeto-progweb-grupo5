@@ -1,0 +1,7 @@
+.nav-links a {
+  transition: color 0.3s ease;
+}
+
+.nav-links a:hover {
+  color: #000000 !important;
+}

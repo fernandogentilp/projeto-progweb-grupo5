@@ -8,6 +8,8 @@ import Cart from './components/Cart';
 import Checkout from './components/Checkout';
 import OrderSuccess from './components/OrderSuccess';
 import Home from "./components/Home";
+// Importe o componente que você criou para o Catálogo, se ele for diferente de ProductList.
+// Por exemplo: import Catalogo from './components/Catalogo';
 
 export default function App() {
   return (
@@ -15,8 +17,13 @@ export default function App() {
       <Header />
       <main className="container">
         <Routes>
-          <Route path="/projeto-progweb-grupo5" element={<Home />} />
-          <Route path="/" element={<ProductList />} />
+          {/* Rota da página inicial */}
+          <Route path="/" element={<Home />} />
+          
+          {/* Rota para o Catálogo, usando ProductList como o componente */}
+          <Route path="/catalogo" element={<ProductList />} />
+          
+          {/* As outras rotas da sua aplicação */}
           <Route path="/product/:id" element={<ProductPage />} />
           <Route path="/cart" element={<Cart />} />
           <Route path="/checkout" element={<Checkout />} />
